@@ -166,8 +166,8 @@ This project is licensed under the MIT License.
 
 ## Contact
 For questions or support, contact the project team at:
-- Email: your@email.com
-- Phone: +91-9730877806
+- Email: junedbhojani61@gmail.com
+- Phone: +91-8484801709
 
 ---
 
