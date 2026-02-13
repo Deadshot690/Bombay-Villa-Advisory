@@ -60,7 +60,7 @@ const projectData: Record<string, {
       },
     ],
     gallery: [
-      { image: "/images/S-bombay-villa.JPG", title: "Poolside Serenity", desc: "A tranquil poolside retreat, perfect for unwinding in the privacy of your own villa. Lush landscaping and modern design create a seamless indoor-outdoor living experience." },
+      { image: "/images/a15.jpg", title: "Poolside Serenity", desc: "A tranquil poolside retreat, perfect for unwinding in the privacy of your own villa. Lush landscaping and modern design create a seamless indoor-outdoor living experience." },
       { image: "/images/r3.jpeg", title: "Contemporary Facade", desc: "Striking architecture with clean lines and natural textures, Shahpur blends timeless elegance with a sense of openness and light." },
       { image: "/images/S-Bombay-villa3.JPG", title: "Sunlit Living Spaces", desc: "Expansive windows invite natural light, illuminating spacious interiors designed for comfort, calm, and effortless entertaining." },
       { image: "/images/v2.jpeg", title: "Private Green Escape", desc: "Each villa is surrounded by greenery, offering a peaceful sanctuary where you can reconnect with nature and enjoy true privacy." },
@@ -103,7 +103,7 @@ const projectData: Record<string, {
      // { title: "Award-winning Service", content: "Experience the difference with our award-winning customer service team, dedicated to making your villa purchase seamless." },
     ],
     gallery: [
-      { image: "/images/K-Bombay-villa.JPG", title: "Elegant Outdoor Living", desc: "Spacious terraces and open-air lounges invite you to enjoy the outdoors in style, surrounded by greenery and fresh air." },
+      { image: "/images/a4.jpg", title: "Elegant Outdoor Living", desc: "Spacious terraces and open-air lounges invite you to enjoy the outdoors in style, surrounded by greenery and fresh air." },
       { image: "/images/img5.jpeg", title: "Modern Villa Design", desc: "Contemporary architecture with expansive glass and natural stone, blending sophistication with comfort in every detail." },
       { image: "/images/K-Bombay-Villa2.JPG", title: "Infinity Pool Views", desc: "A stunning infinity pool overlooks the lush landscape, offering a serene escape and a perfect spot for relaxation." },
       { image: "/images/r5.jpeg", title: "Grand Entrance", desc: "A dramatic entryway welcomes you home, setting the tone for luxury and exclusivity throughout the Kasara experience." },
@@ -117,7 +117,7 @@ const projectData: Record<string, {
       "Designed for those who value peace, open skies, and a close connection to nature.",
       "Each villa is crafted for relaxation, privacy, and timeless comfort.",
     ],
-    heroImage: high5,
+    heroImage: "/images/a3.jpg",
     features: [
       { title: "Scenic Nature", desc: "Discover Igatpuri – a peaceful and beautiful place to call home. Spread across 6 acres of scenic and quiet surroundings, located in the heart of nature, away from the noise and stress of city life." },
       { title: "Tranquil Lifestyle", desc: "Igatpuri is renowned for its calm atmosphere, fresh mountain air, and lush greenery. Residents enjoy a slower pace of life, perfect for unwinding and reconnecting with nature." },
@@ -161,7 +161,7 @@ const projectData: Record<string, {
       { title: "After-Sales Support", desc: "Enjoy ongoing assistance and support even after possession." },
     ],
     gallery: [
-      { image: "/images/I-Bomaby-Villa.JPG", title: "Mountain Views", desc: "Wake up to breathtaking mountain vistas and crisp air, with every villa designed to maximize the natural beauty of Igatpuri." },
+      { image: "/images/a12.jpg", title: "Mountain Views", desc: "Wake up to breathtaking mountain vistas and crisp air, with every villa designed to maximize the natural beauty of Igatpuri." },
       { image: "/images/img2.jpeg", title: "Lush Courtyards", desc: "Private courtyards filled with greenery offer a peaceful escape and a perfect setting for morning coffee or evening gatherings." },
       { image: "/images/new2.jpeg", title: "Open-Plan Living", desc: "Spacious interiors flow seamlessly to the outdoors, creating a sense of freedom and connection to nature." },
       { image: "/images/I-Bomaby-Villa3.JPG", title: "Tranquil Water Features", desc: "Elegant water features and landscaped gardens bring a sense of calm and timeless luxury to every villa." },

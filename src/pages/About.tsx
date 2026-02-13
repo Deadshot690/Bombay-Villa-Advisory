@@ -22,7 +22,7 @@ const About = () => {
         title="About Us"
         subtitle="Redefining Private Villa Living in Maharashtra"
         breadcrumb="About"
-        image={aboutHero}
+        image="/images/a1.jpg"
       />
 
       {/* Who We Are */}
@@ -49,7 +49,7 @@ const About = () => {
             <ScrollReveal direction="right">
               <div className="relative">
                 <img
-                  src={high7}
+                  src="/images/a2.jpg"
                   alt="Who We Are"
                   className="w-full h-[500px] object-cover"
                   loading="lazy"
@@ -146,7 +146,7 @@ const About = () => {
             <ScrollReveal direction="right">
               <div className="relative">
                 <img
-                  src={high6}
+                  src="/images/a9.jpg"
                   alt="Architecture in Harmony with Nature"
                   className="w-full h-[500px] object-cover rounded-lg shadow-lg"
                   loading="lazy"

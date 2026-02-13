@@ -8,32 +8,32 @@ import PageHero from "@/components/PageHero";
 const projects = [
   {
     name: "Shahpur",
-    description: "Private bungalow living surrounded by nature and open landscapes.",
+    description: "Shahpur invites you to a world where privacy and nature exist in perfect harmony. Each bungalow is thoughtfully nestled among open meadows and mature trees, offering a rare sense of seclusion and freedom. Wake to the gentle sounds of nature, enjoy sunlit interiors, and unwind in your own private sanctuary. Here, architectural grace meets the tranquility of the outdoors, creating a lifestyle that is both restorative and refined—ideal for those who cherish space, serenity, and a deep connection to the land.",
     image: "/images/high3.jpg",
     path: "/projects/shahpur",
   },
   {
     name: "Kasara",
-    description: "A tranquil retreat with modern amenities and scenic views.",
+    description: "Kasara is a celebration of modern architectural elegance, where clean lines and expansive glass frame the beauty of the surrounding landscape. These villas are designed for those who appreciate balance—between sophistication and comfort, openness and intimacy. Step inside to discover airy living spaces, curated finishes, and a seamless flow between indoors and out. In Kasara, every detail is considered, offering a tranquil yet vibrant environment for discerning residents who value both style and substance.",
     image: "/images/high4.jpg",
     path: "/projects/kasara",
   },
   {
     name: "Igatpuri",
-    description: "Luxury villas nestled in the hills, perfect for relaxation.",
-    image: "/images/high5.jpg",
+    description: "In Igatpuri, luxury finds its purest expression. Perched amidst rolling hills and misty vistas, these exclusive villas offer a retreat into calm sophistication. Floor-to-ceiling windows invite panoramic views and natural light, while private terraces and lush gardens create intimate spaces for relaxation. Every element is crafted for comfort and exclusivity, from the refined materials to the thoughtful amenities. Igatpuri is more than a destination—it is an invitation to experience life at its most serene and elevated.",
+    image: "/images/a3.jpg",
     path: "/projects/igatpuri",
   },
   {
     name: "Investment Opportunities",
-    description: "Explore unique investment opportunities in our exclusive villa projects.",
+    description: "Unlock a portfolio of rare investment opportunities in the region’s most sought-after villa developments. Each project is carefully selected for its potential, location, and enduring value, offering investors a blend of security and growth. Whether you seek long-term appreciation or a refined addition to your real estate holdings, our advisory team provides expert guidance and personalized solutions to help you achieve your financial aspirations with confidence and clarity.",
     image: "/images/investment.jpg",
     path: "/investment",
   },
   {
     name: "Client Testimonials",
-    description: "See what our clients say about their villa experience and our service.",
-    image: "/images/testimonials.jpg",
+    description: "Our clients’ stories speak to the quality and care that define every aspect of our service. Discover firsthand accounts of seamless transactions, attentive support, and the joy of finding a home that truly resonates. These testimonials reflect not just satisfaction, but a sense of trust and partnership—an experience that sets our community apart and inspires confidence in every new relationship we build.",
+    image: "/images/a14.jpg",
     path: "/testimonials",
   },
 ];
@@ -46,7 +46,7 @@ const Index = () => {
         title="Crafting Private Villa Living"
         subtitle="Bungalow developments in Shahpur, Kasara, and Igatpuri — designed for privacy, comfort, and timeless living."
         breadcrumb="Home"
-        image={heroImage}
+        image="/images/a10.jpg"
       />
 
       {/* Stats */}
@@ -90,11 +90,6 @@ const Index = () => {
                   </div>
                   <div className="lg:w-2/5 space-y-6">
                     {/* Remove project number for Investment Opportunities and Client Testimonials cards */}
-                    {project.name !== "Investment Opportunities" && project.name !== "Client Testimonials" && (
-                      <span className="text-xs tracking-[0.3em] uppercase text-primary font-body">
-                        Project {String(i + 1).padStart(2, "0")}
-                      </span>
-                    )}
                     <h3 className="text-4xl md:text-5xl font-heading font-bold">{project.name}</h3>
                     <p className="text-muted-foreground font-body leading-relaxed">{project.description}</p>
                     <Link

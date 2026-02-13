@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Instagram, Phone, Mail, MapPin } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="text-xs tracking-[0.3em] uppercase text-primary mb-6 font-body">
-              Navigation
+              Menu
             </h4>
             <div className="flex flex-col gap-3">
               {[
@@ -89,9 +90,10 @@ const Footer = () => {
                 href="https://wa.me/919730877806"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-3 border border-primary text-primary text-xs tracking-[0.2em] uppercase font-body hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                className="inline-flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors"
               >
-                Chat on WhatsApp
+                <FaWhatsapp size={20} />
+                WhatsApp
               </a>
             </div>
           </div>

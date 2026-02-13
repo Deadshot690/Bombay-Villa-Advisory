@@ -7,18 +7,18 @@ import { X } from "lucide-react";
 
 const galleryImages = [
   { src: "/images/Apartment.jpg", alt: "Gallery 1" },
-  { src: "/images/IMG_1007.JPG", alt: "Gallery 2" },
-  { src: "/images/IMG_1312.JPG", alt: "Gallery 3" },
+  { src: "/images/a5.jpg", alt: "Gallery 2" },
+  { src: "/images/a8.jpg", alt: "Gallery 3" },
   { src: "/images/IMG_1607.JPG", alt: "Gallery 4" },
-  { src: "/images/IMG_1634.JPG", alt: "Gallery 5" },
-  { src: "/images/IMG_1636.JPG", alt: "Gallery 6" },
+  { src: "/images/a11.jpg", alt: "Gallery 5" },
+  { src: "/images/a15.jpg", alt: "Gallery 6" },
   { src: "/images/IMG_20260202_134023.jpg", alt: "Gallery 7" },
   { src: "/images/IMG_4607.JPG", alt: "Gallery 8" },
   { src: "/images/IMG_4974.JPG", alt: "Gallery 9" },
-  { src: "/images/I-Bomaby-Villa.JPG", alt: "Gallery 10" },
-  { src: "/images/I-Bomaby-Villa1.JPG", alt: "Gallery 11" },
+  { src: "/images/a12.jpg", alt: "Gallery 10" },
+  { src: "/images/a13.jpg", alt: "Gallery 11" },
   { src: "/images/I-Bomaby-Villa3.JPG", alt: "Gallery 12" },
-  { src: "/images/K-Bombay-villa.JPG", alt: "Gallery 13" },
+  { src: "/images/a4.jpg", alt: "Gallery 13" },
   { src: "/images/K-Bombay-Villa2.JPG", alt: "Gallery 14" },
   { src: "/images/K-Bombay-Villa3.JPG", alt: "Gallery 15" },
   { src: "/images/hotel-apartment.jpg", alt: "Gallery 16" },
@@ -47,7 +47,7 @@ const Gallery = () => {
         title="Gallery"
         subtitle="Browse our gallery to experience the beauty, lifestyle, and ambiance of our projects."
         breadcrumb="Gallery"
-        image={high2}
+        image="/images/a6.jpg"
       />
 
       <section className="section-padding">

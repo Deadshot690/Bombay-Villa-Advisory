@@ -37,10 +37,15 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
-        {/* Logo */}
-        <Link to="/" className="flex items-center gap-3">
-          <span className="text-2xl font-heading font-bold tracking-wide gold-gradient-text">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between h-24">
+        {/* Left: Logo and Brand - tightly grouped */}
+        <Link to="/" className="flex items-center gap-4">
+          <img
+            src="/logo.png"
+            alt="Bombay Villa Logo"
+            className="h-20 w-auto object-contain"
+          />
+          <span className="text-xl font-heading font-semibold tracking-wide gold-gradient-text">
             BOMBAY VILLA
           </span>
           <span className="hidden sm:block text-xs font-body tracking-[0.3em] text-muted-foreground uppercase">
@@ -48,7 +53,7 @@ const Navbar = () => {
           </span>
         </Link>
 
-        {/* Desktop Nav */}
+        {/* Right: Navigation Links and Enquire - tightly grouped */}
         <div className="hidden lg:flex items-center gap-10">
           {navLinks.map((link) => (
             <Link
@@ -67,7 +72,7 @@ const Navbar = () => {
             href="https://wa.me/919730877806"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-4 px-6 py-2.5 border border-primary text-primary text-xs tracking-[0.2em] uppercase font-body hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            className="px-6 py-2.5 border border-primary text-primary text-xs tracking-[0.2em] uppercase font-body hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >
             Enquire
           </a>
