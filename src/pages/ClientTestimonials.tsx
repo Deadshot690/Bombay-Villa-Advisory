@@ -40,7 +40,7 @@ const ClientTestimonials = () => (
       title="What Our Clients Say"
       subtitle="Real stories from our valued homeowners and investors."
       breadcrumb="Testimonials"
-      image="/images/testimonials.jpg"
+      image="/images/a14.jpg"
     />
     <section className="section-padding">
       <div className="max-w-4xl mx-auto space-y-10">
