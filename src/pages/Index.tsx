@@ -44,7 +44,7 @@ const Index = () => {
       {/* Hero Section */}
       <PageHero
         title="Crafting Private Villa Living"
-        subtitle="Bungalow developments in Shahpur, Kasara, and Igatpuri — designed for privacy, comfort, and timeless living."
+        subtitle="Bungalow developments in Shahpur, Kasara, and Igatpuri designed for privacy, comfort, and timeless living."
         breadcrumb="Home"
         image="/images/a10.jpg"
       />
