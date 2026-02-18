@@ -36,7 +36,7 @@ const About = () => {
                   A Curator of <span className="gold-gradient-text">Refined Living</span>
                 </h2>
                 <p className="text-muted-foreground font-body leading-relaxed">
-                  Bombay Villa Advisory is more than a developer—it is a curator of refined living. Our ethos is shaped by a passion for privacy, architectural distinction, and the creation of communities that harmonize with nature. Every villa is conceived as a sanctuary, blending timeless design with the tranquility of Maharashtra's landscapes.
+                  Bombay Villa Advisory is more than a developer it is a curator of refined living. Our ethos is shaped by a passion for privacy, architectural distinction, and the creation of communities that harmonize with nature. Every villa is conceived as a sanctuary, blending timeless design with the tranquility of Maharashtra's landscapes.
                 </p>
                 <p className="text-muted-foreground font-body leading-relaxed">
                   Bombay Villa Advisory is a boutique real estate developer specializing in the creation of private villas in some of Maharashtra's most sought-after destinations—Shahpur, Kasara, and Igatpuri. With over five years of experience, we have established ourselves as a trusted partner for high-net-worth individuals and investors seeking a refined, private, and nature-connected lifestyle.
