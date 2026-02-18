@@ -41,13 +41,11 @@ const Navbar = () => {
         {/* Left: Logo + Brand tightly grouped, hard left */}
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="/images/Bombay Icon.png"
+            src="/images/Web Logo.png"
             alt="Bombay Villa Logo"
             className="h-14 w-auto object-contain"
           />
-          <span className="text-2xl md:text-3xl font-luxia font-semibold tracking-wide gold-gradient-text whitespace-nowrap">
-            BOMBAY VILLA ADVISORY
-          </span>
+         
         </Link>
 
         {/* Right: Nav links + Enquire, hard right */}
