@@ -41,9 +41,9 @@ const Navbar = () => {
         {/* Left: Logo + Brand tightly grouped, hard left */}
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="/images/Web Logo.png"
+            src="/images/Web Logo1.png"
             alt="Bombay Villa Logo"
-            className="h-14 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
          
         </Link>
