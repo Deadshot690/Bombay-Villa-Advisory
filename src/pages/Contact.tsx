@@ -24,7 +24,7 @@ const Contact = () => {
         title="Contact"
         subtitle="Submit your contact information and any questions you have in mind and we will happily assist you."
         breadcrumb="Contact"
-        image="https://bombay-villa-advisory.pages.dev/images/office-1.jpg"
+        image="https://bombayvillaadvisory.com/images/office-1.jpg"
       />
 
       <section className="section-padding">
