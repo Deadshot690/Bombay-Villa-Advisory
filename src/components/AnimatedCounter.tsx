@@ -39,7 +39,7 @@ const AnimatedCounter = ({ value, label, sublabel }: AnimatedCounterProps) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="text-center"
+      className="text-center min-w-0"
     >
       <div className="text-5xl md:text-6xl font-heading font-bold text-primary mb-2">
         {isNumeric ? `${count}${suffix}` : value}

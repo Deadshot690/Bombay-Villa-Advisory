@@ -167,7 +167,7 @@ const About = () => {
               <h2 className="text-4xl md:text-5xl font-heading font-bold mt-4">A Growing Footprint</h2>
             </div>
           </ScrollReveal>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <AnimatedCounter value="3" label="Prime Locations" sublabel="Shahpur, Kasara, Igatpuri" />
             <AnimatedCounter value="Boutique" label="Developments" sublabel="Curated, not mass" />
             <AnimatedCounter value="Selective" label="Clientele" sublabel="HNI & luxury buyers" />

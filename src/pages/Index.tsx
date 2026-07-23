@@ -51,7 +51,7 @@ const Index = () => {
 
       {/* Stats */}
       <section className="section-padding bg-jet">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <AnimatedCounter value="5+" label="Years of Experience" sublabel="Hands-on expertise in private bungalow development." />
           <AnimatedCounter value="Boutique" label="Villa Developments" sublabel="Select projects designed for refined living." />
           <AnimatedCounter value="3" label="Prime Locations" sublabel="Shahpur, Kasara, and Igatpuri." />
